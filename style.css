@@ -8,6 +8,7 @@ body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
   color: white;
+
   background: linear-gradient(
     -45deg,
     #120000,
@@ -37,17 +38,17 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-.card img {
+.card video {
   width: 100%;
   border-radius: 30px;
 }
-.molde-img {
+.molde-video {
   position: relative;
   width: 80%;
   margin: 0 auto 20px;
   z-index: 1;
 }
-.molde-img::before {
+.molde-video::before {
   content: "";
   position: absolute;
   inset: 1px;
